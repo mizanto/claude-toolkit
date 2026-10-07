@@ -1,7 +1,7 @@
 {
   "name": "toolkit",
-  "version": "0.2.0",
-  "description": "A collection of everyday helper skills: Conventional Commits messages from staged changes and pull request descriptions from branch changes.",
+  "version": "0.3.0",
+  "description": "Everyday engineering skills for Claude Code: commit messages, PR descriptions, planning and plan execution, verification, debugging, review handling, plan critique, agent-doc writing, plus a git-safety hook.",
   "author": {
     "name": "Sergei Bendak"
   },
@@ -10,7 +10,12 @@
     "git",
     "commit",
     "conventional-commits",
-    "pull-request"
+    "pull-request",
+    "planning",
+    "debugging",
+    "code-review",
+    "skills",
+    "hooks"
   ],
   "homepage": "https://github.com/mizanto/claude-toolkit",
   "repository": "https://github.com/mizanto/claude-toolkit",

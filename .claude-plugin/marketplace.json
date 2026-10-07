@@ -10,7 +10,7 @@
     {
       "name": "toolkit",
       "source": "./plugins/toolkit",
-      "description": "Everyday helper skills: Conventional Commits messages from staged changes and pull request descriptions from branch changes."
+      "description": "Everyday engineering skills for Claude Code: commit messages, PR descriptions, planning and plan execution, verification, debugging, review handling, plan critique, agent-doc writing, plus a git-safety hook."
     }
   ]
 }

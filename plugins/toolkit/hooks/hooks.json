@@ -1,0 +1,17 @@
+{
+  "description": "git-safety: ask before Claude runs git commands that rewrite history, discard work, or publish to a remote.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/git_safety.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
