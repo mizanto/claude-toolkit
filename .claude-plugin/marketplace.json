@@ -1,0 +1,16 @@
+{
+  "name": "claude-toolkit",
+  "owner": {
+    "name": "Sergei Bendak"
+  },
+  "metadata": {
+    "description": "Claude Code plugin marketplace with everyday helper skills."
+  },
+  "plugins": [
+    {
+      "name": "toolkit",
+      "source": "./plugins/toolkit",
+      "description": "Everyday helper skills: Conventional Commits messages from staged changes and pull request descriptions from branch changes."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "toolkit",
+  "version": "0.2.0",
+  "description": "A collection of everyday helper skills: Conventional Commits messages from staged changes and pull request descriptions from branch changes.",
+  "author": {
+    "name": "Sergei Bendak"
+  },
+  "keywords": [
+    "toolkit",
+    "git",
+    "commit",
+    "conventional-commits",
+    "pull-request"
+  ],
+  "homepage": "https://github.com/mizanto/claude-toolkit",
+  "repository": "https://github.com/mizanto/claude-toolkit",
+  "license": "MIT"
+}
